@@ -24,6 +24,8 @@ body {
     background: gray;
 }
 
+
+
 /* Layout */
 main {
     /* Fixed width center align */
@@ -31,7 +33,7 @@ main {
     margin-inline: auto;
 
     background: lightgray;
-}
+
 
 main img {
     /* Fit image to container */
@@ -63,3 +65,27 @@ footer {
         flex-direction: column;
     }
 }
+.lyrics-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure the container fills the width of its parent */
+}
+
+.column {
+    flex: 1;  /* Makes each column take equal space */
+    padding: 10px; /* Padding inside each column */
+    box-sizing: border-box; /* Include padding and border in the element's width */
+}
+
+.column section {
+    margin-bottom: 60px !important;  /* Temporarily using !important to test specificity */
+}
+}
+
+body {
+    font-family: Arial, sans-serif; /* Ensures a readable font is used */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+

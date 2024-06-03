@@ -41,7 +41,10 @@
 
 <article>
 
+
   
+  <div class="lyrics-container">
+    <div class="column">
 <section>
   <p>There's something in the air </p>
   <p>The girls are runnin' 'round in summer dresses.</p>
@@ -55,7 +58,8 @@
 <section>
   <p>Ever since I fell out of love with you, I fell back in love with me </p>
   <p>and boy, does it feel sweet, like a summer breeze</p>
-  <p>Ever since I fell out of love with you, I fell back in love with the city,</p>
+  <p>Ever since I fell out of love with you, 
+  <p>I fell back in love with the city,</p>
   <p>Like the Paramount sign sparkling, sparkling just for me. </p>
 </section>
 
@@ -64,12 +68,71 @@
   <p>You tried to take all the pink off my toes</p>
   <p>And God knows the only mistake that a man can make</p>
   <p>Is tryna make a woman change and trade her violets for roses. </p>
+</section>
+
+<section>
+  <p>Ah-la-ha, ah-ha </p>
+  <p>Trade her violets for roses</p>
+  <p>Ah-la-ha, ah-ha</p>
+</section>
+
+<section>
+  <p>And by the Merthry alleys in the streets have ceased</p>
+  <p>And still, the shadows haunt the avenue</p>
+  <p>The silence is deafenin'</p>
+
+<section>
+  <p>Ever since I fell out of love with you,</p>
+  <p>I fell back in love with the streets</p>
+  <p>And God, does it feel sweet,</p>
+  <p>Like a summer breeze </p>
+</section>
+</div>
+<div class="column">
+ 
 
 
-
+<section>
+  <p>Ever since I fell out of love with you, </p>
+  <p>I break dance to the back beat</p>
+  <p>And God, does it sound sweet,</p>
+  <p>Likr it's playin' just for me. </p>
 </section>
 
 
+<section>
+  <p>You made me trade my violets for roses </p>
+  <p>You tried to trade in my new truck for horses</p>
+  <p>Don't forget all of these things that you love </p>
+  <p>are the same things I hate, </p>
+  <p>A simple life, I chose this</p>
+</section>
+
+
+<section>
+  <p>You made me trade my violets for roses </p>
+  <p>You tried to take all the pink off my toes</p>
+  <p>And God knows the only mistake that a man can make</p>
+  <p>Is trying to make a woman change and trade her violets for roses</p>
+</section>
+
+
+<section>
+  <p>Ah-la-ha, ah-ha </p>
+  <p>Trade her violets for roses</p>
+  <p>Trade her violets for roses</p>
+  <p>AH-la-ha, ah-ha</p>
+</section>
+
+
+<section>
+  <p>There's something in the air </p>
+  <p>The girls are running 'round in summer dresses</p>
+  <p>With their masks off, and it makes me so happy</p>
+</div>
+</div>
+ 
+</section>
 
 
 </article>
@@ -89,7 +152,14 @@
 <style>
   body {
     background-color: rgb(109, 84, 84); 
+    .column {
+  flex: 1; /* Assigns equal space to each column */
+  padding: 0 15px; /* Adds padding inside each column for spacing */
+  box-sizing: border-box; /* Includes padding in the width calculation */
+  text-align: justify; /* Justifies text for a neat layout */
 }
+}
+
 
 /* Changing background color of a specific article */
 article {
