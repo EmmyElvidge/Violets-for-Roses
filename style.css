@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&family=BenchNine:wght@300;400;700&family=Cabin+Condensed:wght@400;500;600;700&family=Concert+One&family=Italiana&family=Itim&family=Lalezar&family=League+Spartan:wght@100..900&family=Lilita+One&family=Luckiest+Guy&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Passion+One:wght@400;700;900&family=Pathway+Gothic+One&family=Pragati+Narrow:wght@400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sarala:wght@400;700&family=Titan+One&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background: rgb(117, 46, 46); /* Your existing background color */
+    background: rgb(255, 255, 255); /* Your existing background color */
     font-family: 'Italiana', sans-serif; /* Specify the font you want to use */
     margin: 0;
     padding: 0;
@@ -35,48 +35,45 @@ h2 {
     --plyr-color-main: darkgray;
     /* audio controls background */
     --plyr-audio-controls-background: rgb(77, 5, 5);
-    /* audio controls color */
+    /* audio control color */
     --plyr-audio-control-color: white;
     /* font family for player */
-   X --plyr-font-family: sans-serif;
-    /* font size of player  */
+    --plyr-font-family: sans-serif;
+    /* font size of player */
     --plyr-font-size-time: 16px;
 
-    /* Other optional customiziations */
-    --plyr-audio-control-color-hover:  black;
-    --plyr-audio-progress-buffered-background:  black;
+    /* Other optional customizations */
+    --plyr-audio-control-color-hover: black;
+    --plyr-audio-progress-buffered-background: black;
     --plyr-audio-range-track-background: white;
     --plyr-tooltip-background: white;
-    --plyr-tooltip-color: black; 
+    --plyr-tooltip-color: rgb(255, 255, 255);
     --plyr-control-icon-size: 16px;
 }
 
 
 /* Layout */
 main {
-    /* Fixed width center align */
     max-width: 62.5em;
     margin-inline: auto;
 
-    background: rgb(245, 252, 177);
+    background:  rgb(254, 253, 205);
+}
     
 
 main img {
-    /* Fit image to container */
     max-width: 100%;
     display: block;
 }
 
 /* Primary Content */
-article {
-    /* flow content horizontally */
+article {  
     display: flex;
     gap: 1em;
     justify-content: center;
 }
 
 article section {
-    /* keep flex'd child same width */
     flex: 1;
 }
 
@@ -95,17 +92,16 @@ footer {
    
     display: flex;
     justify-content: space-between;
-    width: 100%; /* Ensure the container fills the width of its parent */
-}
+    width: 100%; 
 
 .column {
-    flex: 1;  /* Makes each column take equal space */
-    padding: 10px; /* Padding inside each column */
-    box-sizing: border-box; /* Include padding and border in the element's width */
+    flex: 1; 
+    padding: 10px; 
+    box-sizing: border-box;
 }
 
 .column section {
-    margin-bottom: 60px !important;  /* Temporarily using !important to test specificity */
+    margin-bottom: 60px !important; 
 }
 
 
